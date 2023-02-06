@@ -1,0 +1,63 @@
+@media only screen and (max-width: 375px) {
+    .img-perfs {
+        background: url(/source/image-product-mobile.jpg);
+    }
+}
+
+
+@media(max-width: 375px) {
+
+    body {
+        width: 375px;
+        overflow-x: hidden;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .categoria {
+        font-size: 80%;
+    }
+
+    .img-perf {
+        display: none;
+    }
+
+    .img-perf-mobile {
+        display: block;
+    }
+
+    .titulo {
+        font-size: 200%;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .descricao {
+        font-size: 90%;
+        line-height: 20px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .preco {
+        margin: 15px 0px;
+        font-size: 200%;
+    }
+
+    .preco span {
+        margin: 10px;
+        font-size: 60%;
+        opacity: 0.5;
+    }
+
+    .compra {
+        margin-top: 10px;
+        height: 90%;
+        width: 100%;
+    }
+}

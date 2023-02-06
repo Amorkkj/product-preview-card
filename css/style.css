@@ -1,0 +1,103 @@
+:root {
+    --font-primary: 'Montserrat';
+    --font-secundary: 'Fraunces';
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    overflow: hidden;
+    width: 60%;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-rows: 5% 25% 30% 20% 20%;
+    padding: 35px;
+}
+
+.img-perf {
+    width: 50%;
+}
+
+.compra {
+    border: 2px hsl(158, 36%, 37%) solid;
+    background-color: hsl(158, 36%, 37%);
+}
+
+.categoria {
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+    font-size: 100%;
+    font-weight: 500;
+    letter-spacing: 5px;
+    opacity: .5;
+    margin: 0;
+}
+
+.titulo {
+    font-family: var(--font-secundary);
+    font-size: 290%;
+    margin: 5px 0px;
+    width: 70%;
+    white-space: break-spaces;
+}
+
+.descricao {
+    font-family: var(--font-primary);
+    font-size: 130%;
+    line-height: 28px;
+    width: 90%;
+}
+
+.preco {
+    font-family: var(--font-secundary);
+    color: hsl(158, 36%, 37%);
+    font-size: 230%;
+}
+
+.conteudo span {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size:60%;
+    text-decoration: line-through;
+    margin: 0px 30px;
+    opacity: 0.5;
+}
+
+.compra {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 90%;
+    border-radius: 15px;
+    line-height: 50%;
+}
+
+.img-compra {
+    margin: 10px;
+    width: 15px;
+}
+
+.img-perf-mobile {
+    display: none;
+}
